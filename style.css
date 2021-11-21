@@ -1,4 +1,5 @@
 body{
+    margin: 0px;
     font-family: 'Poppins', sans-serif; 
 }
 h1{
@@ -17,4 +18,20 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+
 }
